@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>除自身以外数组的乘积 | ObsessedCE Site</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9f0b8310a0a8b4709a892334d5678c8c";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+    <meta name="description" content="这是我的测试站点">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.13787ce6.css" as="style"><link rel="preload" href="/blog/assets/js/app.fb773bc2.js" as="script"><link rel="preload" href="/blog/assets/js/2.ed5f6c4c.js" as="script"><link rel="preload" href="/blog/assets/js/1.f5351e91.js" as="script"><link rel="preload" href="/blog/assets/js/28.8fc3bea8.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.5862b396.js"><link rel="prefetch" href="/blog/assets/js/11.b90f8ef7.js"><link rel="prefetch" href="/blog/assets/js/12.cdb8ef1f.js"><link rel="prefetch" href="/blog/assets/js/13.9e3356a3.js"><link rel="prefetch" href="/blog/assets/js/14.ac9076f9.js"><link rel="prefetch" href="/blog/assets/js/15.999bbb90.js"><link rel="prefetch" href="/blog/assets/js/16.3e61592b.js"><link rel="prefetch" href="/blog/assets/js/17.082a539e.js"><link rel="prefetch" href="/blog/assets/js/18.4442ba3f.js"><link rel="prefetch" href="/blog/assets/js/19.cc474708.js"><link rel="prefetch" href="/blog/assets/js/20.b8d25739.js"><link rel="prefetch" href="/blog/assets/js/21.f0ebc6f5.js"><link rel="prefetch" href="/blog/assets/js/22.08afc8c2.js"><link rel="prefetch" href="/blog/assets/js/23.d551e893.js"><link rel="prefetch" href="/blog/assets/js/24.780329e7.js"><link rel="prefetch" href="/blog/assets/js/25.918d8fdd.js"><link rel="prefetch" href="/blog/assets/js/26.796cf8cb.js"><link rel="prefetch" href="/blog/assets/js/27.6e750071.js"><link rel="prefetch" href="/blog/assets/js/29.164c35ac.js"><link rel="prefetch" href="/blog/assets/js/3.78223909.js"><link rel="prefetch" href="/blog/assets/js/30.62f509ab.js"><link rel="prefetch" href="/blog/assets/js/31.8b0e822b.js"><link rel="prefetch" href="/blog/assets/js/32.00a56e5f.js"><link rel="prefetch" href="/blog/assets/js/33.aabcef2d.js"><link rel="prefetch" href="/blog/assets/js/34.2d0bd217.js"><link rel="prefetch" href="/blog/assets/js/35.13cecd63.js"><link rel="prefetch" href="/blog/assets/js/36.b9f15768.js"><link rel="prefetch" href="/blog/assets/js/37.a286e9fd.js"><link rel="prefetch" href="/blog/assets/js/38.09c72a6b.js"><link rel="prefetch" href="/blog/assets/js/39.70f4b89f.js"><link rel="prefetch" href="/blog/assets/js/4.6326d421.js"><link rel="prefetch" href="/blog/assets/js/40.612401ad.js"><link rel="prefetch" href="/blog/assets/js/41.e1b8f5a6.js"><link rel="prefetch" href="/blog/assets/js/42.086cee64.js"><link rel="prefetch" href="/blog/assets/js/43.a5029fed.js"><link rel="prefetch" href="/blog/assets/js/44.7a9c447f.js"><link rel="prefetch" href="/blog/assets/js/45.dd2299db.js"><link rel="prefetch" href="/blog/assets/js/46.28c34dd4.js"><link rel="prefetch" href="/blog/assets/js/47.2d256bd7.js"><link rel="prefetch" href="/blog/assets/js/48.31d46425.js"><link rel="prefetch" href="/blog/assets/js/49.ff767b48.js"><link rel="prefetch" href="/blog/assets/js/5.44a0117b.js"><link rel="prefetch" href="/blog/assets/js/50.3633eb89.js"><link rel="prefetch" href="/blog/assets/js/51.9f67d94d.js"><link rel="prefetch" href="/blog/assets/js/52.f6de564e.js"><link rel="prefetch" href="/blog/assets/js/53.7e0d698d.js"><link rel="prefetch" href="/blog/assets/js/54.7ec76541.js"><link rel="prefetch" href="/blog/assets/js/55.c1f098ce.js"><link rel="prefetch" href="/blog/assets/js/56.6ac66092.js"><link rel="prefetch" href="/blog/assets/js/57.a29f1b19.js"><link rel="prefetch" href="/blog/assets/js/58.7160bfc2.js"><link rel="prefetch" href="/blog/assets/js/59.ad5925d6.js"><link rel="prefetch" href="/blog/assets/js/6.ce46c05e.js"><link rel="prefetch" href="/blog/assets/js/60.807123ae.js"><link rel="prefetch" href="/blog/assets/js/7.1cd0e65a.js"><link rel="prefetch" href="/blog/assets/js/vendors~docsearch.bd0b093a.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.13787ce6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">ObsessedCE Site</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/code/" class="nav-link">
+  编程
+</a></div><div class="nav-item"><a href="/blog/security/" class="nav-link">
+  网络安全
+</a></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link router-link-active">
+  算法
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/code/" class="nav-link">
+  编程
+</a></div><div class="nav-item"><a href="/blog/security/" class="nav-link">
+  网络安全
+</a></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link router-link-active">
+  算法
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="除自身以外数组的乘积"><a href="#除自身以外数组的乘积" class="header-anchor">#</a> 除自身以外数组的乘积</h1> <p><a href="https://leetcode.cn/problems/product-of-array-except-self/description/?envType=study-plan-v2&amp;envId=top-interview-150" target="_blank" rel="noopener noreferrer">原题链接<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积 。
+题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。
+请 不要使用除法，且在 O(n) 时间复杂度内完成此题。</p> <p>示例 1:</p> <blockquote><p>输入: nums = [1,2,3,4]
+输出: [24,12,8,6]</p></blockquote> <p>示例 2:</p> <blockquote><p>输入: nums = [-1,1,0,-3,3]
+输出: [0,0,9,0,0]</p></blockquote> <p>提示：</p> <ul><li>2 &lt;= nums.length &lt;= 105</li> <li>-30 &lt;= nums[i] &lt;= 30</li> <li>保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内</li></ul> <p>进阶：你可以在 O(1) 的额外空间复杂度内完成这个题目吗？（ 出于对空间复杂度分析的目的，输出数组 不被视为 额外空间。）</p> <h2 id="题解"><a href="#题解" class="header-anchor">#</a> 题解</h2> <blockquote><p>双前缀和思路。</p></blockquote> <div class="language-c++ extra-class"><pre class="language-text"><code>class Solution {
+public:
+    vector&lt;int&gt; productExceptSelf(vector&lt;int&gt;&amp; nums) {
+       int n = nums.size();
+       vector&lt;int&gt; res(n,0);
+       res[0]  = 1;
+       for (int i = 1; i &lt; n; i++) {
+           res[i] = res[i-1] * nums[i-1];
+       }
+       int r = 1;
+       for (int i = n-1; i&gt;=0; i--) {
+           res[i] = res[i] * r;
+           r = r * nums[i];
+       }
+       return res;
+    }
+};
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.fb773bc2.js" defer></script><script src="/blog/assets/js/2.ed5f6c4c.js" defer></script><script src="/blog/assets/js/1.f5351e91.js" defer></script><script src="/blog/assets/js/28.8fc3bea8.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>接雨水 | ObsessedCE Site</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9f0b8310a0a8b4709a892334d5678c8c";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+    <meta name="description" content="这是我的测试站点">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.13787ce6.css" as="style"><link rel="preload" href="/blog/assets/js/app.fb773bc2.js" as="script"><link rel="preload" href="/blog/assets/js/2.ed5f6c4c.js" as="script"><link rel="preload" href="/blog/assets/js/1.f5351e91.js" as="script"><link rel="preload" href="/blog/assets/js/31.8b0e822b.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.5862b396.js"><link rel="prefetch" href="/blog/assets/js/11.b90f8ef7.js"><link rel="prefetch" href="/blog/assets/js/12.cdb8ef1f.js"><link rel="prefetch" href="/blog/assets/js/13.9e3356a3.js"><link rel="prefetch" href="/blog/assets/js/14.ac9076f9.js"><link rel="prefetch" href="/blog/assets/js/15.999bbb90.js"><link rel="prefetch" href="/blog/assets/js/16.3e61592b.js"><link rel="prefetch" href="/blog/assets/js/17.082a539e.js"><link rel="prefetch" href="/blog/assets/js/18.4442ba3f.js"><link rel="prefetch" href="/blog/assets/js/19.cc474708.js"><link rel="prefetch" href="/blog/assets/js/20.b8d25739.js"><link rel="prefetch" href="/blog/assets/js/21.f0ebc6f5.js"><link rel="prefetch" href="/blog/assets/js/22.08afc8c2.js"><link rel="prefetch" href="/blog/assets/js/23.d551e893.js"><link rel="prefetch" href="/blog/assets/js/24.780329e7.js"><link rel="prefetch" href="/blog/assets/js/25.918d8fdd.js"><link rel="prefetch" href="/blog/assets/js/26.796cf8cb.js"><link rel="prefetch" href="/blog/assets/js/27.6e750071.js"><link rel="prefetch" href="/blog/assets/js/28.8fc3bea8.js"><link rel="prefetch" href="/blog/assets/js/29.164c35ac.js"><link rel="prefetch" href="/blog/assets/js/3.78223909.js"><link rel="prefetch" href="/blog/assets/js/30.62f509ab.js"><link rel="prefetch" href="/blog/assets/js/32.00a56e5f.js"><link rel="prefetch" href="/blog/assets/js/33.aabcef2d.js"><link rel="prefetch" href="/blog/assets/js/34.2d0bd217.js"><link rel="prefetch" href="/blog/assets/js/35.13cecd63.js"><link rel="prefetch" href="/blog/assets/js/36.b9f15768.js"><link rel="prefetch" href="/blog/assets/js/37.a286e9fd.js"><link rel="prefetch" href="/blog/assets/js/38.09c72a6b.js"><link rel="prefetch" href="/blog/assets/js/39.70f4b89f.js"><link rel="prefetch" href="/blog/assets/js/4.6326d421.js"><link rel="prefetch" href="/blog/assets/js/40.612401ad.js"><link rel="prefetch" href="/blog/assets/js/41.e1b8f5a6.js"><link rel="prefetch" href="/blog/assets/js/42.086cee64.js"><link rel="prefetch" href="/blog/assets/js/43.a5029fed.js"><link rel="prefetch" href="/blog/assets/js/44.7a9c447f.js"><link rel="prefetch" href="/blog/assets/js/45.dd2299db.js"><link rel="prefetch" href="/blog/assets/js/46.28c34dd4.js"><link rel="prefetch" href="/blog/assets/js/47.2d256bd7.js"><link rel="prefetch" href="/blog/assets/js/48.31d46425.js"><link rel="prefetch" href="/blog/assets/js/49.ff767b48.js"><link rel="prefetch" href="/blog/assets/js/5.44a0117b.js"><link rel="prefetch" href="/blog/assets/js/50.3633eb89.js"><link rel="prefetch" href="/blog/assets/js/51.9f67d94d.js"><link rel="prefetch" href="/blog/assets/js/52.f6de564e.js"><link rel="prefetch" href="/blog/assets/js/53.7e0d698d.js"><link rel="prefetch" href="/blog/assets/js/54.7ec76541.js"><link rel="prefetch" href="/blog/assets/js/55.c1f098ce.js"><link rel="prefetch" href="/blog/assets/js/56.6ac66092.js"><link rel="prefetch" href="/blog/assets/js/57.a29f1b19.js"><link rel="prefetch" href="/blog/assets/js/58.7160bfc2.js"><link rel="prefetch" href="/blog/assets/js/59.ad5925d6.js"><link rel="prefetch" href="/blog/assets/js/6.ce46c05e.js"><link rel="prefetch" href="/blog/assets/js/60.807123ae.js"><link rel="prefetch" href="/blog/assets/js/7.1cd0e65a.js"><link rel="prefetch" href="/blog/assets/js/vendors~docsearch.bd0b093a.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.13787ce6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">ObsessedCE Site</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/code/" class="nav-link">
+  编程
+</a></div><div class="nav-item"><a href="/blog/security/" class="nav-link">
+  网络安全
+</a></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link router-link-active">
+  算法
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/code/" class="nav-link">
+  编程
+</a></div><div class="nav-item"><a href="/blog/security/" class="nav-link">
+  网络安全
+</a></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link router-link-active">
+  算法
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="接雨水"><a href="#接雨水" class="header-anchor">#</a> 接雨水</h1> <p>给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。</p> <p>示例 1：</p> <blockquote><p>输入：height = [0,1,0,2,1,0,1,3,2,1,2,1]
+输出：6
+解释：上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。</p></blockquote> <p>示例 2：</p> <blockquote><p>输入：height = [4,2,0,3,2,5]
+输出：9</p></blockquote> <p>提示：</p> <ul><li>n == height.length</li> <li>1 &lt;= n &lt;= 2 * 104</li> <li>0 &lt;= height[i] &lt;= 105</li></ul> <h2 id="题解"><a href="#题解" class="header-anchor">#</a> 题解</h2> <blockquote><p>动态规划。可以明显发现当前位置能存储的数量,min(左边最高值, 右边最高值) -heght[i]的结果。使用两个数组分别维护当前位置左边/右边最大值。</p></blockquote> <div class="language-c++ extra-class"><pre class="language-text"><code>class Solution {
+public:
+    int trap(vector&lt;int&gt;&amp; height) {
+        int n = height.size();
+        vector&lt;int&gt; leftHight(n);
+        vector&lt;int&gt; rightHight(n);
+        int res = 0;
+        leftHight[0] = height[0];
+        for (int i = 1; i &lt; n; i++) {
+            leftHight[i] = max(leftHight[i-1], height[i]);
+        }
+        rightHight[n-1] = height[n-1];
+        for (int i = n-2; i&gt;=0; i--) {
+            rightHight[i] = max(rightHight[i+1], height[i]);
+        }
+        int tmp = 0;
+        for (int i = 0; i &lt; n;i++) {
+            tmp = min(leftHight[i], rightHight[i]);
+            res += max(0, tmp-height[i]);
+        }
+        return res;
+    }
+};
+</code></pre></div><blockquote><p>通过双指针减少两个数组的空间占用。leftMax维护左侧当前最高值，rightMax维护右侧当前最高值。res[i] = min(leftMax, rightMax)- height[i]。</p></blockquote> <div class="language-c++ extra-class"><pre class="language-text"><code>class Solution {
+public:
+    int trap(vector&lt;int&gt;&amp; height) {
+        int ans = 0;
+        int left = 0, right = height.size()-1;
+        int leftMax = 0, rightMax = 0;
+        while (left &lt; right) {
+            leftMax = max(leftMax, height[left]);
+            rightMax = max(rightMax, height[right]);
+            if (height[left] &lt; height[right]) {
+                ans += leftMax - height[left];
+                left++;
+            } else {
+                ans += rightMax - height[right];
+                right--;
+            }
+        }
+        return ans;
+    }
+};
+</code></pre></div><blockquote><p>维护单调递减的栈，当前位置高度大于栈顶位置高度时，栈顶元素出栈。会形成凹陷，当前位置和最新栈顶位置会形成凹陷，从而可以储存水。本质是将水一层一层累加。</p></blockquote> <p><img src="https://i-blog.csdnimg.cn/direct/76eb2c627a09496f9c366d0694932510.png" alt="在这里插入图片描述" referrerpolicy="no-referrer"></p> <div class="language-c++ extra-class"><pre class="language-text"><code>class Solution {
+public:
+    int trap(vector&lt;int&gt;&amp; height) {
+        int res = 0;
+        stack&lt;int&gt; stk;
+        int n = height.size();
+        for (int i = 0; i &lt; n; i++) {
+            while (!stk.empty() &amp;&amp; height[i] &gt; height[stk.top()]) {
+                int top = stk.pop();
+                if (stk.empty()) {
+                    break;
+                }
+                int left = stk.pop();
+                int width = i - left -1;
+                int currentHeight = min(height[left], left[i]) - height[top];
+                res += width * currentHeight;
+            }
+            stk.push(i);
+        }
+        return res;
+    }
+};
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.fb773bc2.js" defer></script><script src="/blog/assets/js/2.ed5f6c4c.js" defer></script><script src="/blog/assets/js/1.f5351e91.js" defer></script><script src="/blog/assets/js/31.8b0e822b.js" defer></script>
+  </body>
+</html>
